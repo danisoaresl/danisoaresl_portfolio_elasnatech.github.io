@@ -1,0 +1,26 @@
+
+.topo{
+    padding: 20px 0;
+    position: relative;
+}
+
+.banner-topo{
+    background: #f2e0f7;
+}
+
+.banner-topo .img-destaque{
+    max-width: 300px;
+}
+
+.banner-topo h1{
+    color: purple;
+}
+
+.btn .btn-primary{
+    color: blueviolet;
+    background-color: blueviolet;
+}
+
+@media screen and (min-width: 768px) {
+
+}
