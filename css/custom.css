@@ -37,6 +37,26 @@
     background: #f2e0f7;
     
 }
+a.nav-link{
+    color:blueviolet;
+}
+
+a.nav-link:hover{
+    color: palevioletred;
+    
+    }
+
+a.btn{
+    color: blueviolet;
+    background: pink;
+}
+
+
+li.nav-item{
+    color: blueviolet;
+
+    
+}
 
 
 @media screen and (min-width: 768px) {
