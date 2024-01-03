@@ -20,11 +20,13 @@
             </div>
             <div class="col-8">
                 <nav class="nav justify-content-end">
+                
                     <a class="nav-link" href="#">Home</a>
                     <a class="nav-link href="#">Sobre Mim</a>
                     <a class="nav-link" href="#">Projetos</a>
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" href="#contato">Contato</a>
                     <a class="btn btn-success rounded-pill" href="https://www.whatsapp.com/" target="_blank">(11) 5555-55555</a>
+                    
                 </nav>
                 
             </div>
@@ -34,16 +36,16 @@
 
 </header>
 
-<section class="banner-topo">
+<section id="sobre_mim" class="banner-topo">
     <div class="container">
     <div class="row">
         <div class="col-6">
             <img src="imagens/danisoares.jpeg" class="img-destaque d-block mx-auto mt-3 img-thumbnail" alt="aluna Daniele">
         </div>
         <div class="col-6 align-self-center">
-        <h1>♥ Daniele Soares ♥</h1>
+        <h1>Daniele Soares</h1>
         <h2>Meu Portfólio </h2>
-        <h4>Elas na Tech 2023</h4>
+        <h4>Elas na Tech 2023 ♥</h4>
         <p><h6>Em outubro, concluí minha formação como Desenvolvedora Web na Elas Na Tech 2023.
         Expresso minha profunda gratidão à equipe da JA Brasil, que não apenas acreditou em mim, mas também me desafiou e motivou, resultando em minha superação pessoal.
         Participação no Programa Elas na Tech, em parceria com JA Brasil, Instituto CCR e IBM.
@@ -55,7 +57,7 @@
     </div>
 </section>
 <br>
-<section class="destaque1">
+<section id="proj1" class="destaque1">
     <div class="container-fluid mt-3">
         <div class="row ">
             <div class="col mx-4 text-center">
@@ -90,7 +92,7 @@
                         HTML5</p>
                         <br>
             </div> 
-            <div class="col mx-4 text-center">
+            <div id="proj2" class="col mx-4 text-center">
                 <img src="imagens/proj2.png" class="d-block mx-auto img-thumbnail" alt="destaque">
                 <h4 class="cor-tema mt-3">Projeto2</h4>
                 <p>Desafio: utilizar flexbox para o alinhamento das imagens;
@@ -116,7 +118,7 @@
                         HTML5</p>
                         <br>
             </div>
-            <div class="col mx-4 text-center">
+            <div id="proj3" class="col mx-4 text-center">
                 <img src="imagens/proj3.png" class="d-block mx-auto img-thumbnail" alt="destaque">
                 <h4 class="cor-tema mt-3">Projeto3</h4>
                 <p>Desafio: mexer com títulos, em telas menores aparecer botão trailer oficial em telas maiores aparecer o vídeo;
@@ -144,7 +146,7 @@
     </div>
 </section>
 
-<section class="destaque2">
+<section id="proj4" class="destaque2">
     <div class="container-fluid mt-3">
         <div class="row">
             <div class="col mx-4 text-center">
@@ -171,7 +173,7 @@
                     HTML5</p>
                     <br>
             </div>  
-            <div class="col mx-4 text-center">
+            <div id="proj5" class="col mx-4 text-center">
                 <img src="imagens/proj5.png" class="d-block mx-auto img-thumbnail" alt="destaque">
                 <h4 class="cor-tema mt-3">Projeto5</h4>
                 <p>Desafio: calculadora responsivo com soma, subtração, multiplicação, divisão, botão limpar e resultado.</p>
@@ -197,7 +199,7 @@
                     DOM</p>
                     <br>
             </div>
-            <div class="col mx-4 text-center">
+            <div id="proj6" class="col mx-4 text-center">
                 <img src="imagens/proj6.png" class="d-block mx-auto img-thumbnail" alt="destaque">
                 <h4 class="cor-tema mt-3">Projeto6</h4>
                 <p>Desafio: imagem de fundo, botão galeria centralizado (ao clicar abrir nova guia);
@@ -234,7 +236,7 @@
     </div>
 </section>
 
-<section class="destaque3">
+<section id="proj7" class="destaque3">
     <div class="container-fluid mt-3">
         <div class="row">
             <div class="col mx-4 text-center">
@@ -261,7 +263,7 @@
                 HTML5
                 <br>
             </div>  
-            <div class="col mx-4 text-center ">
+            <div id="proj8" class="col mx-4 text-center ">
                 <img src="imagens/proj8.png" class="d-block mx-auto img-thumbnail" alt="destaque">
                 <h4 class="cor-tema mt-3">Projeto8</h4>
                 <p>Desafio: imagem de fundo, ícones que redirecionam no footer, responsivo, menu hambúrguer, alterar ícone do título.</p>
@@ -281,7 +283,7 @@
                 HTML5
                 <br>
             </div>
-            <div class="col mx-4 text-center">
+            <div id="projt9" class="col mx-4 text-center">
                 <img src="imagens/proj9.png" class="d-block mx-auto img-thumbnail" alt="destaque">
                 <h4 class="cor-tema mt-3">Projeto9</h4>
                 <p>O desafio deste projeto consistiu em aplicar níveis de título do h1 ao h6 e centralizá-los;
@@ -316,19 +318,30 @@
         </div>
     </div>
 </section>
-
-<section class="Contato">
+         
+<a name="contato">
+<section id="contato" class="Contato">
+<div class="mb-3" class="container">
     <div class="container">
         <div class="row">
             <div class="col-7"></div>
-            <div class="col-5">
-                <form action="#"></form>
+            <div class="col-7">
+                <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+                <input class="btn btn-primary" type="submit" value="Enviar" style="background:pink">
+
             </div>
         </div>
     </div>
+</div>
 </section>
-
-</section>
+</a>
 
 <footer class="rodape">
     <div class="container">

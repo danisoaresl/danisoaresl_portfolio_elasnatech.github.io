@@ -39,6 +39,7 @@
 }
 a.nav-link{
     color:blueviolet;
+    
 }
 
 a.nav-link:hover{
@@ -49,6 +50,7 @@ a.nav-link:hover{
 a.btn{
     color: blueviolet;
     background: pink;
+    border: none;
 }
 
 
@@ -58,6 +60,16 @@ li.nav-item{
     
 }
 
+.mb-3{
+    background: #f2e0f7;
+    border: none;
+}
+
+.btn.btn-primary{
+    border:none;
+    color: blueviolet;
+    margin: 15px;
+}
 
 @media screen and (min-width: 768px) {
 
